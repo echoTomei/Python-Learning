@@ -30,7 +30,9 @@ print('hello,%s,my age is %d' % ('zhangmei',24))
 print ('%.2f' % 3.1415926) #小数点后保留两位整数
 
 #example
-s=(85-72)/72
-print('%.1f' % s)
+s1=int(input('last year score:'))
+s2=int(input('this year score:'))
+s=(s2-s1)/s1 *100
+print('%.1f%%' % s)  
 
 #若无特殊需求，使用UTF-8进行编码
