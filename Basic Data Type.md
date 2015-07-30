@@ -1,19 +1,19 @@
-#python能表示的数据类型有：整数，浮点数，字符串，布尔型,空值，变量，常量。
+#####python能表示的数据类型有：整数，浮点数，字符串，布尔型,空值，变量，常量。
 
-print (-8080)
-print(0xff00)
-#浮点数
++print (-8080)
++print(0xff00)
+######浮点数
 print(1.23e9)
 
 print(" i'm ok!")
 
-#字符串里既有'‘' 又有'“' 使用转义字符。
-print('i \'m \"ok\"')   //i'm "ok"
+######字符串里既有'‘' 又有'“' 使用转义字符。
+print('i \'m \"ok\"')     //i'm "ok"
 
-#r''中''里的字符不需要转义
+######r''中''里的字符不需要转义
 print(r'\\\t\\')
 
-#打印多行字符
+######打印多行字符
 print('''line1
 	...line2
 	...line3''')
@@ -21,8 +21,8 @@ print(r'''line1
 	...line2
 	...line3''')
 
-#布尔值：True,False
-#可用and,or,not运算
+######布尔值：True,False
+######可用and,or,not运算
 print(True or False)
 print(5>3 and 1>3)
 
